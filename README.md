@@ -5,6 +5,13 @@ A great GUI manager for FreeSwitch
 
 YouPBX 是一个强大 FreeSwift (电话软交换系统) 的管理GUI系统，基于Django开发，功能全面，体验友好，可以基于此项目做一个完善的IPPBX系统、呼叫中心应用等
 
+# 环境安装
+如果提示
+```
+1.No module named django :   解决：easy_install  django==1.5.0
+2.No module named gevent.monkey 解决： pip install gevent
+3. No module named django_crispy_forms 解决： pip install django_crispy_forms
+```
 # 使用
 ```
 1. git clone
